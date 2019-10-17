@@ -1,0 +1,5 @@
+CONDA_BUILD_SYSROOT:
+  - /anaconda3/opt/MacOSX10.9.sdk        # [osx]
+pin_run_as_build:
+  boost-cpp:
+    max_pin: x.x.x
